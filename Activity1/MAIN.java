@@ -20,9 +20,9 @@ public class MAIN {
 		if(num1 >= 5 ) {
 			answer = (num2 + num3 ) * num1 ;
 		} else if (num1 <= 5) {
-			answer = num2 + (num3 * num1 ) ; 
+			answer = num2 - (num3 * num1 ) ; 
 		} else {
-			answer = (num2 * num1) + num3;
+			answer = (num2 * num1) / num3;
 		}
 		
 		System.out.println("The answer is : " + answer) ;
